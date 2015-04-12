@@ -1,0 +1,22 @@
+---
+layout: default
+title: Posts
+---
+
+<div class="home">
+
+  <h1 class="page-heading">All Posts</h1>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%A, %B %-d, %Y" }}</span>
+
+        <h5>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h5>
+      </li>
+    {% endfor %}
+  </ul>
+
+</div>
