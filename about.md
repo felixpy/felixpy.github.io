@@ -4,8 +4,10 @@ title: About
 permalink: /about/
 ---
 
-> I'm a coder from Beijing, China. I'm learning javascript, python and ruby. I want to be better and better.
-> 
-> And, I want to find a girlfriend by code. :)
-> 
-> -- Felix Yang, Beijing, 2015
+> I'm a software engineer from Beijing, China.
+>
+> And I'm learning javascript, node, react, python, ruby, etc.
+>
+> Have a nice day! :)
+>
+> -- Felix Yang, Beijing, 2016
