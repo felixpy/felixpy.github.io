@@ -8,11 +8,24 @@
           </span>
           <span>{{ site.title }}</span>
         </a>
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
       </div>
       <div class="navbar-menu">
         <div class="navbar-start">
         </div>
         <div class="navbar-end">
+          <div class="navbar-item">
+            <div class="control has-icons-right">
+              <input class="input is-rounded" type="text" placeholder="Search...">
+              <span class="icon is-small is-right">
+                <i class="fas fa-search"></i>
+              </span>
+            </div>
+          </div>
           {% for page in site.pages %}
             {% if page.title %}
             <a class="navbar-item" href="{{ page.url | prepend: site.baseurl }}">

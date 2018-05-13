@@ -1,6 +1,8 @@
 .main {
-    padding: 3rem;
+    padding: 2rem;
+}
 
+@media screen and (min-width: 1088px) {
     .content-wrapper {
         padding: 0 1.5rem;
     }
