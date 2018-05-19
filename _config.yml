@@ -11,3 +11,7 @@ permalink: /:year/:month/:day/:title:output_ext
 
 # Build settings
 markdown: kramdown
+
+algolia:
+  application_id: AQN226ZOWS
+  index_name: jekyll_blog
