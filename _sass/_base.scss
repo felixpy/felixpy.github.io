@@ -1,10 +1,9 @@
 .posts {
     ul.post-list {
         li {
-            & + li {
+            &+li {
                 margin-top: 1rem;
             }
-
             .post-meta {
                 font-size: 0.8rem;
                 color: #828282;
@@ -17,8 +16,44 @@
     .post-header {
         margin-bottom: 1rem;
     }
-
     .post-meta {
         color: #828282;
+    }
+}
+
+.algolia-autocomplete {
+    .aa-dropdown-menu {
+        width: 100%;
+        background-color: #fff;
+        box-shadow: 0 2px 3px rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.1);
+        .aa-suggestion {
+            cursor: pointer;
+            padding: 5px;
+            font-size: 0.8rem;
+            &.aa-cursor {
+                background-color: #B2D7FF;
+            }
+            em {
+                font-weight: bold;
+                font-style: normal;
+            }
+            & + .aa-suggestion {
+                border-top: 1px solid #dbdbdb;
+            }
+        }
+    }
+    .aa-empty {
+        padding: 0.5em;
+        font-size: 0.8rem;
+    }
+    .branding {
+        text-align: right;
+        font-size: 0.8rem;
+        padding: 5px;
+        border-top: 1px solid #dbdbdb;
+        img {
+            height: 0.8rem;
+            margin-bottom: -0.1rem;
+        }
     }
 }
