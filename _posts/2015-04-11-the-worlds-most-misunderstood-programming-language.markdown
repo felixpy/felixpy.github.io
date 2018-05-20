@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "The World's Most Misunderstood Programming Language"
+title: "The World's Most Misunderstood Programming Language"
 author: "Felix Yang"
-date:   2015-04-11 13:55:58
+date: 2015-04-11 13:55:58
 categories: javascript code
+comments: true
 ---
 
 > JavaScript: The World's Most Misunderstood Programming Language

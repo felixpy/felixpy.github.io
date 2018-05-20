@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "The World's Most Popular Programming Language"
+title: "The World's Most Popular Programming Language"
 author: "Felix Yang"
-date:   2015-04-12 15:21:08
+date: 2015-04-12 15:21:08
 categories: javascript code
+comments: true
 ---
 
 > The World's Most Misunderstood Programming Language Has Become the World's Most Popular Programming Language
