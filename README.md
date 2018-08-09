@@ -2,4 +2,4 @@
 
 Personal blog created by jekyll, hosted on github.
 
-Portal: [blog.felixpy.com](https://blog.felixpy.com/)
+Portal: [felixpy.github.io](https://felixpy.github.io/)
