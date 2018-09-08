@@ -6,8 +6,8 @@ group :jekyll_plugins do
   gem 'jekyll-sitemap'
   gem 'jekyll-feed'
   gem 'jekyll-seo-tag'
+  gem 'jekyll-paginate'
   gem 'jekyll-algolia', '~> 1.4'
-  gem 'jekyll-paginate-v2', '~> 2.0'
   gem 'jekyll-archives', '~> 2.1'
   gem 'jemoji', '~> 0.10.1'
 end

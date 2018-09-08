@@ -17,15 +17,20 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-algolia
-  - jekyll-paginate-v2
+  - jekyll-paginate
   - jekyll-archives
   - jemoji
 
+# Paginate V1
+paginate: 7
+paginate_path: "/page/:num/"
+
+# Paginate V2
 pagination:
   enabled: true
   debug: false
   per_page: 7
-  permalink: '/page/:num/'
+  permalink: "/page/:num/"
   sort_reverse: true
   trail: 
     before: 2
