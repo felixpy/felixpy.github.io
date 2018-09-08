@@ -10,7 +10,10 @@
     <main class="main">
       <div class="container">
         <div class="content-wrapper">
-            {{ content }}
+          {% if page.url != '/' and page.breadcrumb %}
+          {% include breadcrumb.html %}
+          {% endif %}
+          {{ content }}
         </div>
       </div>
     </main>

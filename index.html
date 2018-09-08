@@ -1,21 +1,15 @@
 ---
 layout: default
+pagination: 
+  enabled: true
 ---
 
-<nav class="breadcrumb" aria-label="breadcrumbs">
-  <ul>
-    <li class="is-active"><a href="#" aria-current="page">Latest Posts</a></li>
-  </ul>
-</nav>
+<h3 class="title is-3">Latest Posts</h3>
 <div class="posts">
   <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <h5>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h5>
-        <span class="post-meta">{{ post.date | date: "%A, %B %-d, %Y" }}</span>
-      </li>
+    {% for post in paginator.posts %}
+      {% include post-list.html %}
     {% endfor %}
   </ul>
 </div>
+{% include pagination.html %}

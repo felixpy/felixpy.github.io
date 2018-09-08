@@ -26,11 +26,11 @@
               </span>
             </div>
           </div>
-          {% for page in site.pages %}
-            {% if page.title %}
+          {% for page in site.pages reversed %}
+            {% if page.title and page.icon %}
             <a class="navbar-item" href="{{ page.url | prepend: site.baseurl }}">
               <span class="icon">
-                <i class="fa fa-book"></i>
+                <i class="fa fa-{{ page.icon }}"></i>
               </span>
               <span>{{ page.title }}</span>
             </a>

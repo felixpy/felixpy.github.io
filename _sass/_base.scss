@@ -10,6 +10,10 @@
             }
         }
     }
+
+    .title {
+        margin-top: 2rem;
+    }
 }
 
 .post {
@@ -32,6 +36,10 @@
             }
         }
     }
+}
+
+.pagination {
+    margin-top: 15px;
 }
 
 .algolia-autocomplete {

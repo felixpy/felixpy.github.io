@@ -9,10 +9,14 @@ comments: true
     <p class="post-meta">{{ page.date | date: "%A, %B %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
     <p class="post-categories">
       {% for cate in page.categories %}
-      <span class="tag is-link">{{ cate }}</i></span>
+        <a href="/category/{{ cate }}/" class="tag is-link">
+          {{ cate }}
+        </a>
       {% endfor %}
       {% for tag in page.tags %}
-      <span class="tag is-info">{{ tag }}</i></span>
+        <a href="/tag/{{ tag }}/" class="tag is-info">
+          {{ tag }}
+        </a>
       {% endfor %}
     </p>
   </header>
@@ -23,14 +27,7 @@ comments: true
 
   <footer class="post-footer">
     {% if page.cc_license %}
-    <blockquote class="cc-license">
-      <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
-        <img alt="Creative Commons License" class="cc-license-img" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" />
-      </a>
-      <span>
-        THIS WORK IS LICENSED UNDER A <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.
-      </span>
-    </blockquote>
+      {% include cc.html %}
     {% endif %}
   </footer>
 

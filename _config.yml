@@ -12,6 +12,39 @@ permalink: /:year/:month/:day/:title:output_ext
 # Build settings
 markdown: kramdown
 
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-algolia
+  - jekyll-paginate-v2
+  - jekyll-archives
+  - jemoji
+
+pagination:
+  enabled: true
+  debug: false
+  per_page: 7
+  permalink: '/page/:num/'
+  sort_reverse: true
+  trail: 
+    before: 2
+    after: 2
+
+jekyll-archives:
+  enabled:
+    - month
+    - categories
+    - tags
+  layouts:
+    month: archive-month
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    month: /:year/:month/
+    category: /category/:name/
+    tag: /tag/:name/
+
 algolia:
   application_id: AQN226ZOWS
   index_name: jekyll_blog

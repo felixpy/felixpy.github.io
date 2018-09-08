@@ -3,5 +3,11 @@ source 'https://rubygems.org'
 gem 'jekyll', '~> 3.6'
 
 group :jekyll_plugins do
-  gem 'jekyll-algolia'
+  gem 'jekyll-sitemap'
+  gem 'jekyll-feed'
+  gem 'jekyll-seo-tag'
+  gem 'jekyll-algolia', '~> 1.4'
+  gem 'jekyll-paginate-v2', '~> 2.0'
+  gem 'jekyll-archives', '~> 2.1'
+  gem 'jemoji', '~> 0.10.1'
 end
