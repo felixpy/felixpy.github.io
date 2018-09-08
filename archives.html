@@ -10,25 +10,34 @@ breadcrumb: true
     <h4 class="title is-4">All Categories</h4>
     {% for category in site.categories %}
       {% capture category_name %}{{ category | first }}{% endcapture %}
+      <!--
       <a href="/category/{{ category_name }}/" class="tag is-link">
         {{ category_name }}
       </a>
+      -->
+      <span class="tag is-link">{{ category_name }}</span>
     {% endfor %}
   </div>
   <div class="archive-group">
     <h4 class="title is-4">All Tags</h4>
     {% for tag in site.tags %}
       {% capture tag_name %}{{ tag | first }}{% endcapture %}
+      <!--
       <a href="/tag/{{ tag_name }}/" class="tag is-info">
         {{ tag_name }}
       </a>
+      -->
+      <span class="tag is-info">{{ tag_name }}</span>
     {% endfor %}
   </div>
 
   {% assign posts_group_by_month = site.posts | group_by_exp: "post", "post.date | date: '%Y %b'" %}
   {% for month_posts in posts_group_by_month %}
     <div class="archive-group">
+      <!--
       <h4 class="title is-4"><a href="{{ month_posts.name | date: '/%Y/%m/' }}">{{ month_posts.name }}</a></h4>
+      -->
+      <h4 class="title is-4">{{ month_posts.name }}</h4>
       <ul class="post-list">
       {% for post in month_posts.items %}
         {% include post-list.html %}
