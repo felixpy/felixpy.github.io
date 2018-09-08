@@ -15,9 +15,22 @@
 .post {
     .post-header {
         margin-bottom: 1rem;
+
+        .post-meta {
+            color: #828282;
+        }
     }
-    .post-meta {
-        color: #828282;
+
+    .post-footer {
+        margin-top: 1rem;
+
+        .cc-license {
+            .cc-license-img {
+                border-width: 0;
+                position: relative;
+                top: 2px;
+            }
+        }
     }
 }
 
