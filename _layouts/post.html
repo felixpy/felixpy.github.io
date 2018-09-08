@@ -9,14 +9,20 @@ comments: true
     <p class="post-meta">{{ page.date | date: "%A, %B %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
     <p class="post-categories">
       {% for cate in page.categories %}
+        <!--
         <a href="/category/{{ cate }}/" class="tag is-link">
           {{ cate }}
         </a>
+        -->
+        <span class="tag is-link">{{ cate }}</span>
       {% endfor %}
       {% for tag in page.tags %}
+        <!--
         <a href="/tag/{{ tag }}/" class="tag is-info">
           {{ tag }}
         </a>
+        -->
+        <span class="tag is-info">{{ tag }}</span>
       {% endfor %}
     </p>
   </header>
