@@ -1,34 +1,16 @@
 <h3 class="title is-3">Projects</h3>
 
 <div class="field is-grouped is-grouped-multiline">
+{% for project in page.projects %}
   <div class="control">
     <a
       class="tags has-addons"
       target="_blank"
-      href="https://github.com/felixpy/formotor"
+      href="{{ project.repo }}"
     >
-      <span class="tag is-medium is-dark">JS</span>
-      <span class="tag is-medium is-info">formotor.js</span>
+      <span class="tag is-dark">{{ project.topic }}</span>
+      <span class="tag is-info">{{ project.name }}</span>
     </a>
   </div>
-  <div class="control">
-    <a
-      class="tags has-addons"
-      target="_blank"
-      href="https://github.com/codetrial/got-auth-service"
-    >
-      <span class="tag is-medium is-dark">Node.js</span>
-      <span class="tag is-medium is-info">GOT Auth Egg Service</span>
-    </a>
-  </div>
-  <div class="control">
-    <a
-      class="tags has-addons"
-      target="_blank"
-      href="https://github.com/codetrial/got-auth-spring"
-    >
-      <span class="tag is-medium is-dark">Java</span>
-      <span class="tag is-medium is-info">GOT Auth Spring Service</span>
-    </a>
-  </div>
+{% endfor %}
 </div>

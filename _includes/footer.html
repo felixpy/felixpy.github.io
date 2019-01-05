@@ -1,9 +1,58 @@
 <footer class="footer">
   <div class="container">
-      <div class="content has-text-centered">
-        <p>Copyright © 2018 Felix Yang</p>
-        <p>{{ site.description }}</p>
+    <div class="columns">
+      <div class="column is-3">
+        <p class="footer-link-title"><span>Repositories</span></p>
+        <p class="footer-link-item">
+          <a target="_blank" href="https://github.com/codetrial/vue-cli-plugin-element">Vue CLI Plugin Element</a>
+        </p>
+        <p class="footer-link-item">
+          <a target="_blank" href="https://github.com/codetrial/element-admin">Element Admin</a>
+        </p>
+        <p class="footer-link-item">
+          <a target="_blank" href="https://github.com/codetrial/element-form-builder">Element Form Builder</a>
+        </p>
+        <p class="footer-link-item">
+          <a target="_blank" href="https://github.com/codetrial/generator-antd-pro">Generator Antd Pro</a>
+        </p>
+        <p class="footer-link-item">
+          <a target="_blank" href="https://github.com/codetrial/got-auth-service">GOT Auth Service</a>
+        </p>
+        <p class="footer-link-item">
+          <a target="_blank" href="https://github.com/codetrial/got-auth-admin">GOT Auth Admin</a>
+        </p>
+        <p class="footer-link-item">
+          <a target="_blank" href="https://github.com/codetrial/egg-token">Egg Token</a>
+        </p>
+        <p class="footer-link-item">
+          <a target="_blank" href="https://github.com/codetrial/wish-todo-spring">Wishtodo Service</a>
+        </p>
+        <p class="footer-link-item">
+          <a target="_blank" href="https://github.com/felixpy/formotor">Formotor.js</a>
+        </p>
       </div>
+      <div class="column is-3">
+        <p class="footer-link-title"><span>Links</span></p>
+        <p class="footer-link-item">
+          <a target="_blank" href="https://felixpy.com">Personal Website</a>
+        </p>
+        <p class="footer-link-item">
+          <a target="_blank" href="https://facebook.com/felixpy.1993">Facebook</a>
+        </p>
+        <p class="footer-link-item">
+          <a target="_blank" href="https://twitter.com/gofelixpy">Twitter</a>
+        </p>
+        <p class="footer-link-item">
+          <a target="_blank" href="https://500px.com/gofelixpy">500px</a>
+        </p>
+      </div>
+      <div class="column is-6">
+        <div class="content has-text-right">
+          <p>Copyright © {{ site.time | date: '%Y' }} Felix Yang</p>
+          <p>{{ site.description }}</p>
+        </div>
+      </div>
+    </div>
   </div>
 </footer>
 <script type="text/template" id="algolia-dropdown-menu-template">
