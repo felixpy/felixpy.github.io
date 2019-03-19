@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "轻量级组件系统 Formotor.js 迟来的发布！"
-author: "Felix Yang"
+title: '轻量级组件系统 Formotor.js 迟来的发布！'
+author: 'Felix Yang'
 date: 2018-12-01 12:21:08
 categories: tech
 tags: javascript code framework mvc component
@@ -11,7 +11,7 @@ cc_license: true
 
 时间已经到了 2018 年最后一个月，诞生两年有余的轻量级组件系统 [Formotor.js](https://felixpy.github.io/formotor) 终于发布了 1.0 版本！不过，随着 jQuery 生态的隐退，这也将是 Formotor 的**最后一个版本**，作为对 jQuery 时代的一个告别。
 
-两年前开发 Formotor 的时候，前端三大框架其实已经逐渐步入正轨，然而由于历史原因，本人负责维护的庞大的后台系统依然采用 jQuery + MVC 的模式进行开发。动辄上千行代码的文件加上复杂的依赖关系，使得迭代举步维艰。后来借着系统进行重大重构的契机，重点对 View 层的架构进行了重新设计，采用组件化对方案一举搞定了几百个表单页面对构建。
+两年前开发 Formotor 的时候，前端三大框架其实已经逐渐步入正轨，然而由于历史原因，本人负责维护的庞大的后台系统依然采用 jQuery + MVC 的模式进行开发。动辄上千行代码的文件加上复杂的依赖关系，使得迭代举步维艰。后来借着系统进行重大重构的契机，重点对 View 层的架构进行了重新设计，采用组件化对方案一举搞定了几百个表单页面的构建。
 
 为了兼容已有的 jQuery UI 体系，Formotor 并没有实现 MVVM 框架核心的双向绑定机制以及单向数据流，而是主要放在了组件通信、模板指令等功能上，用来解决复杂的表单校验及联动交互等场景。
 
