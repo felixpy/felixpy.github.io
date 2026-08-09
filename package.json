@@ -1,0 +1,12 @@
+{
+  "name": "felixpy.github.io",
+  "private": true,
+  "scripts": {
+    "build:site": "bundle exec jekyll build",
+    "build:search": "pagefind --site _site",
+    "build": "npm run build:site && npm run build:search"
+  },
+  "devDependencies": {
+    "pagefind": "1.5.2"
+  }
+}

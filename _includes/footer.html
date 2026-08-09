@@ -1,25 +1,10 @@
-<footer class="footer">
+<footer class="footer" data-pagefind-ignore>
   <div class="container">
     <div class="columns">
       <div class="column is-3">
         <p class="footer-link-title"><span>Repositories</span></p>
         <p class="footer-link-item">
-          <a target="_blank" href="https://github.com/codetrial/vue-cli-plugin-element">Vue CLI Plugin Element</a>
-        </p>
-        <p class="footer-link-item">
-          <a target="_blank" href="https://github.com/codetrial/generator-antd-pro">Generator Antd Pro</a>
-        </p>
-        <p class="footer-link-item">
-          <a target="_blank" href="https://github.com/codetrial/element-admin">Element Admin</a>
-        </p>
-        <p class="footer-link-item">
           <a target="_blank" href="https://github.com/codetrial/element-form-builder">Element Form Builder</a>
-        </p>
-        <p class="footer-link-item">
-          <a target="_blank" href="https://github.com/codetrial/got-auth-service">GOT Auth Service</a>
-        </p>
-        <p class="footer-link-item">
-          <a target="_blank" href="https://github.com/codetrial/got-auth-admin">GOT Auth Admin</a>
         </p>
         <p class="footer-link-item">
           <a target="_blank" href="https://github.com/felixpy/formotor">Formotor.js</a>
@@ -29,9 +14,6 @@
         <p class="footer-link-title"><span>Links</span></p>
         <p class="footer-link-item">
           <a target="_blank" href="https://felixpy.com">Felix Yang</a>
-        </p>
-        <p class="footer-link-item">
-          <a target="_blank" href="https://codetrial.github.io">Codetrial Work</a>
         </p>
         <hr>
         <p class="footer-link-item">
@@ -53,12 +35,6 @@
     </div>
   </div>
 </footer>
-<script type="text/template" id="algolia-dropdown-menu-template">
-  <div class="algolia-dropdown-menu">
-    <div class="aa-dataset-d1"></div>
-  </div>
-</script>
 <script charset="utf-8" src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
-<script charset="utf-8" src="https://cdn.bootcss.com/algoliasearch/3.27.1/algoliasearch.min.js"></script>
-<script charset="utf-8" src="https://cdn.bootcss.com/autocomplete.js/0.30.0/autocomplete.jquery.min.js"></script>
-<script charset="utf-8" src="/js/app.js"></script>
+<script charset="utf-8" src="{{ "/pagefind/pagefind-ui.js" | prepend: site.baseurl }}"></script>
+<script charset="utf-8" src="{{ "/js/app.js" | prepend: site.baseurl }}"></script>
