@@ -1,5 +1,5 @@
 <header>
-  <nav class="navbar has-shadow is-spaced" id="header-navbar" role="navigation" aria-label="main navigation">
+  <nav class="navbar has-shadow is-spaced" id="header-navbar" role="navigation" aria-label="main navigation" data-pagefind-ignore>
     <div class="container">
       <div class="navbar-brand">
         <a class="navbar-item" href="{{ site.baseurl }}/">
@@ -19,12 +19,7 @@
         </div>
         <div class="navbar-end">
           <div class="navbar-item">
-            <div class="control has-icons-right">
-              <input class="input" id="header-navbar-search" type="text" placeholder="Search...">
-              <span class="icon is-small is-right">
-                <i class="fas fa-search"></i>
-              </span>
-            </div>
+            <div id="header-navbar-search" aria-label="Search this site"></div>
           </div>
           {% for page in site.pages reversed %}
             {% if page.title and page.icon %}
