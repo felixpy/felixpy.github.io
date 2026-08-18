@@ -9,6 +9,9 @@ github_username: felixpy
 
 permalink: /:year/:month/:day/:title:output_ext
 
+# TimeZone
+timezone: Asia/Shanghai
+
 # Build settings
 markdown: kramdown
 
