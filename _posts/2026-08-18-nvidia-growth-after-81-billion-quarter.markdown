@@ -4,12 +4,10 @@ title: 'NVIDIA：816 亿美元季度收入之后，增长还要跑多快'
 author: 'Felix Yang'
 date: 2026-08-18 23:21:00 +0800
 categories: investing
-tags: ai semiconductor nvidia data-center
+tags: ai semiconductor data-center
 comments: true
 cc_license: true
 ---
-
-# NVIDIA：816 亿美元季度收入之后，增长还要跑多快
 
 截至 2026 年 4 月 26 日的一个季度，NVIDIA 收入达到 816.15 亿美元，上年同期是 440.62 亿美元。这样的增幅放在任何大型硬件公司身上都很少见，经营现金流也有 503.44 亿美元，说明增长并非只停在订单和应收账款里。可到了 8 月 17 日，225.01 美元的收盘价配上季度稀释股数，已经对应约 5.49 万亿美元的权益价值。公司仍在创造惊人的经营数字，证券价格却同时把许多年后的胜利提前算了进来。两者之间还剩多少余量，不能只看 GPU 是否继续紧缺。
 

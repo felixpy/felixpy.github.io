@@ -4,12 +4,10 @@ title: 'Astera Labs：收入翻倍之后，连接芯片能否守住芯片利润'
 author: 'Felix Yang'
 date: 2026-08-19 06:00:00 +0800
 categories: investing
-tags: ai semiconductor astera-labs data-center networking
+tags: ai semiconductor data-center networking
 comments: true
 cc_license: true
 ---
-
-# Astera Labs：收入翻倍之后，连接芯片能否守住芯片利润
 
 2026 年第二季度，Astera Labs 的收入达到 3.924 亿美元，比上年同期增长 104%。同一季毛利率却从 75.8% 降到 73.3%，库存又在半年内从 5898 万美元增至 1.138 亿美元。出货量、产品组合和平均售价都在推动增长，资产负债表也开始为下一轮交付提前投入。对于一家刚把年收入推过十亿美元量级的连接芯片公司，增长当然重要，但这组数字提出了更难的问题：Astera Labs 是在建立一个能持续收取高毛利的平台，还是正在用更多模块、库存和客户让利换取眼前的放量？
 
