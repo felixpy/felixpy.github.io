@@ -2,7 +2,7 @@
 layout: post
 title: 'Astera Labs：收入翻倍之后，连接芯片能否守住芯片利润'
 author: 'Felix Yang'
-date: 2026-08-19 06:00:00
+date: 2026-08-19 06:00:00 +0800
 categories: investing
 tags: ai semiconductor astera-labs data-center networking
 comments: true

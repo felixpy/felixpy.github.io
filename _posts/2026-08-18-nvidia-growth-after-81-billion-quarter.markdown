@@ -2,7 +2,7 @@
 layout: post
 title: 'NVIDIA：816 亿美元季度收入之后，增长还要跑多快'
 author: 'Felix Yang'
-date: 2026-08-18 23:21:00
+date: 2026-08-18 23:21:00 +0800
 categories: investing
 tags: ai semiconductor nvidia data-center
 comments: true

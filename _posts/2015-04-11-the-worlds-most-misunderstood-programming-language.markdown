@@ -2,7 +2,7 @@
 layout: post
 title: "The World's Most Misunderstood Programming Language"
 author: "Felix Yang"
-date: 2015-04-11 13:55:58
+date: 2015-04-11 13:55:58 +0800
 categories: reproduction
 tags: javascript code
 comments: true

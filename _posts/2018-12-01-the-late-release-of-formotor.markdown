@@ -2,7 +2,7 @@
 layout: post
 title: '轻量级组件系统 Formotor.js 迟来的发布！'
 author: 'Felix Yang'
-date: 2018-12-01 12:21:08
+date: 2018-12-01 12:21:08 +0800
 categories: tech
 tags: javascript code framework mvc component
 comments: true
