@@ -4,6 +4,10 @@ Personal blog created by jekyll, hosted on github.
 
 Portal: [felixpy.github.io](https://felixpy.github.io/)
 
+## 最后更新时间
+
+2026-10-17 16:27:37（Asia/Shanghai）
+
 ## Development
 
 Install Ruby, Bundler, and Node.js dependencies, then build the site and its
